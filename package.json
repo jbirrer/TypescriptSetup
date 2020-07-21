@@ -1,0 +1,18 @@
+{
+  "name": "joel",
+  "version": "1.0.0",
+  "description": "yeet",
+  "main": "index.js",
+  "scripts": {
+    "test": "we are live!",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "lite-server": "^2.5.4",
+    "typescript": "^3.9.7"
+  }
+}
